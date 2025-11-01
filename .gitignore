@@ -1,0 +1,117 @@
+# ================================
+# 🌍 ROOT GITIGNORE
+# Combined for Vite + FastAPI + Supabase
+# ================================
+
+# ================================
+# 🐍 PYTHON BACKEND
+# ================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+secrets.json
+
+# SQLite / database files
+*.db
+*.sqlite3
+*.sqlite
+
+# Logs and temporary files
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*.pid
+logs/
+output/
+
+# Unit test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+cache/
+__snapshots__/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ================================
+# ⚛️ FRONTEND (React + Vite)
+# ================================
+
+client/node_modules/
+client/dist/
+client/dist-ssr/
+client/.local/
+client/.DS_Store
+client/.env
+client/.env.*
+client/secrets.json
+client/*.log
+
+# Editor directories and files
+client/.vscode/
+client/.idea/
+client/*.suo
+client/*.ntvs*
+client/*.njsproj
+client/*.sln
+client/*.sw?
+
+
+# ================================
+# 🧩 GENERAL / CROSS-ENV
+# ================================
+node_modules/
+*.log
+*.tmp
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ================================
+# 🚀 SUPABASE (optional, local dev only)
+# ================================
+supabase/.temp/
+supabase/.branches/
+supabase/.functions/
+supabase/.env

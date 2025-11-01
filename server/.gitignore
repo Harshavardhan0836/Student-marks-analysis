@@ -1,0 +1,66 @@
+# ================================
+# 🐍 PYTHON BACKEND IGNORE FILE
+# ================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+secrets.json
+
+# SQLite / database files
+*.db
+*.sqlite3
+*.sqlite
+
+# Logs and temporary files
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*.pid
+
+
+# Unit test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+cache/
+__snapshots__/
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
