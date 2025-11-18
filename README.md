@@ -1,4 +1,4 @@
-# 🧠 Analytics Portal (MTD)
+# 🧠 Student Marks Analysis
 
 A full-stack analytics portal designed to manage and visualize MTD (Month-to-Date) reports using **React (Vite)** on the frontend, **Flask (Python)** on the backend, and **Supabase** for authentication and storage.
 ## ⚙️ Prerequisites
